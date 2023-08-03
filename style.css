@@ -1,0 +1,49 @@
+*{
+    magrin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    background-color: burlywood;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+nav li {
+    list-style: none;
+}
+
+nav a:hover {
+    background-color: rgb(35, 127, 44);
+}   
+
+main{
+    width: 80%;
+    margin: 40px auto;
+    border: 1px solid green;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+main img{
+    width: 100%;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.29), blue), url(https://cdn.pixabay.com/photo/2023/06/22/22/29/cookies-8082386_1280.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
